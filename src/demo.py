@@ -10,8 +10,7 @@ from loguru import logger
 import cv2
 
 import torch
-
-from yolox.data.data_augment import ValTransform
+from data_augment import ValTransform
 from coco_classes import COCO_CLASSES
 from build import get_exp
 from yolox.utils import fuse_model, get_model_info, postprocess, vis
