@@ -13,7 +13,8 @@ import torch
 from data_augment import ValTransform
 from coco_classes import COCO_CLASSES
 from build import get_exp
-from model_utils import fuse_model, get_model_info, postprocess, vis
+from model_utils import fuse_model, get_model_info, vis
+from boxes import postprocess
 
 IMAGE_EXT = [".jpg", ".jpeg", ".webp", ".bmp", ".png"]
 
